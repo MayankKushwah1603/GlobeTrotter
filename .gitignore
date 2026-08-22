@@ -16,11 +16,12 @@ dist-ssr/
 **/.env
 **/.env*.local
 
-# Frontend files (only supabase and components/ui tracked)
+# Frontend files (only supabase, components/ui and components/travel tracked)
 globetrotter/src/*
 !globetrotter/src/components/
 globetrotter/src/components/*
 !globetrotter/src/components/ui/
+!globetrotter/src/components/travel/
 globetrotter/public/
 globetrotter/*.json
 globetrotter/package*.json
