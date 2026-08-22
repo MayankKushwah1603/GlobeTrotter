@@ -16,6 +16,16 @@ dist-ssr/
 **/.env
 **/.env*.local
 
+# Frontend files (only supabase tracked)
+globetrotter/src/
+globetrotter/public/
+globetrotter/*.json
+globetrotter/package*.json
+globetrotter/*.ts
+globetrotter/*.js
+globetrotter/.*rc
+globetrotter/.*ignore
+
 # Logs
 *.log
 npm-debug.log*
